@@ -31,7 +31,7 @@ The pipeline uses **PySpark, Spark SQL, Delta Lake, Unity Catalog, and Lakeflow 
 
 # Architecture
 
-![Lakehouse Architecture](architecture/Pipeline flow.png)
+![Pipeline Architecture](architecture/pipeline-flow.png)
 
 The data flow follows:
 
@@ -54,7 +54,7 @@ Gold Layer
 (Analytics & Reporting Tables)
           |
           ▼
-Databricks SQL Dashboards
+Dashboards
 ```
 
 ---
@@ -71,7 +71,7 @@ Databricks SQL Dashboards
 | Unity Catalog                | Data governance and security  |
 | Azure Data Lake Storage Gen2 | Cloud storage                 |
 | Lakeflow Jobs                | Workflow orchestration        |
-| Databricks SQL               | Analytics and dashboards      |
+| Databricks SQL /PowerBI              | Analytics and dashboards      |
 
 ---
 

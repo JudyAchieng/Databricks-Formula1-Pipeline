@@ -31,7 +31,7 @@ The pipeline uses **PySpark, Spark SQL, Delta Lake, Unity Catalog, and Lakeflow 
 
 # Architecture
 
-![Lakehouse Architecture](architecture/lakehouse-architecture.png)
+![Lakehouse Architecture](architecture/Pipeline flow.png)
 
 The data flow follows:
 
@@ -96,7 +96,7 @@ The goal of this project was to build practical experience with modern cloud dat
 formula1-data-engineering-databricks
 │
 ├── architecture
-│   ├── lakehouse-architecture.png
+│   ├── Pipeline flow.png
 │   └── medallion-architecture.png
 │
 ├── notebooks
